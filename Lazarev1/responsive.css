@@ -1,0 +1,264 @@
+/* -------------------- TABLET (1024px) -------------------- */
+@media (max-width: 1024px) {
+
+    nav {
+        padding: 2vw 5vw;
+        height: 10vh;
+    }
+
+    .nav-part2 h4 {
+        font-size: 1.4vw;
+    }
+
+    nav button {
+        font-size: 1.5vw;
+        padding: 10px 18px;
+    }
+
+    #page1 h1 {
+        font-size: 12vw;
+        line-height: 13vw;
+    }
+
+    #page1-something h4 {
+        font-size: 2vw;
+    }
+
+    #page2 {
+        flex-direction: column;
+        height: auto;
+        padding: 10vw 5vw;
+        gap: 5vw;
+    }
+
+    #page2-left,
+    #page2-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-elem h2 {
+        font-size: 2.5vw;
+    }
+
+    /* Page 4 */
+    #text-left h2 {
+        font-size: 4vw;
+    }
+
+    #text-right1 p,
+    #text-right2 p {
+        font-size: 1.5vw;
+    }
+
+    /* Page 6 */
+    #page6 {
+        flex-direction: column;
+    }
+
+    #page6 button {
+        font-size: 1.8vw;
+        margin-bottom: 4vw;
+    }
+
+    #page6-right > p {
+        font-size: 3vw;
+    }
+
+    /* Page 7 */
+    #page7 > h1 {
+        font-size: 7vw;
+        line-height: 8vw;
+        padding-left: 0;
+    }
+
+    #page7-content {
+        flex-direction: column;
+        gap: 4vw;
+    }
+
+    #blue-btn {
+        width: 30vw;
+        height: 6vw;
+    }
+
+}
+
+/* -------------------- MOBILE (768px) -------------------- */
+@media (max-width: 768px) {
+
+    nav {
+        padding: 4vw 5vw;
+        height: auto;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .nav-part2 {
+        gap: 5vw;
+    }
+
+    .nav-part2 h4 {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    nav button {
+        font-size: 3vw;
+        padding: 12px 20px;
+    }
+
+    #page1 h1 {
+        font-size: 14vw;
+        line-height: 15vw;
+        text-align: center;
+    }
+
+    #moving-image {
+        width: 90%;
+        padding: 2vw;
+    }
+
+    #moving-image .move img {
+        height: 3vw;
+    }
+
+    /* Page 2 */
+    #page2-left h5 {
+        font-size: 2.5vw;
+    }
+
+    .right-elem h2 {
+        font-size: 4vw;
+    }
+
+    .right-elem img {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    /* Page 4 */
+    #page4 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #text-left,
+    #text-right {
+        width: 100%;
+        height: auto;
+        padding: 10vw 5vw;
+    }
+
+    #text-left h2 {
+        font-size: 6vw;
+    }
+
+    #text-right1 p,
+    #text-right2 p {
+        font-size: 3vw;
+    }
+
+    /* Page 5 cards */
+    .section {
+        flex-direction: column;
+        height: auto;
+        padding: 10vw 5vw;
+        gap: 5vw;
+    }
+
+    .sec-left,
+    .sec-right {
+        width: 100%;
+    }
+
+    .sec-left h2 {
+        font-size: 5vw;
+    }
+
+    .sec-left p {
+        font-size: 3vw;
+    }
+
+    /* Page 6 */
+    #page6-right > p {
+        font-size: 4vw;
+    }
+
+    #page6-content h1 {
+        font-size: 6vw;
+    }
+
+    .page6-elem h3 {
+        font-size: 4vw;
+    }
+
+    .page6-elem p {
+        font-size: 2.5vw;
+        width: 80%;
+    }
+
+    /* Page 7 */
+    #page7 > h1 {
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+
+    #page7-content #right-7 p {
+        font-size: 3.5vw;
+    }
+
+    #blue-btn {
+        width: 45vw;
+        height: 10vw;
+    }
+
+    /* Footer sections */
+    #page7-bottom {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #page7-bottom > div {
+        width: 100% !important;
+        border-right: none;
+        padding: 5vw 0;
+    }
+
+    .bottom-parts h5,
+    .bottom-parts h4 {
+        font-size: 3vw;
+    }
+}
+
+/* -------------------- SMALL MOBILE (480px) -------------------- */
+@media (max-width: 480px) {
+
+    #page1 h1 {
+        font-size: 16vw;
+    }
+
+    nav button {
+        font-size: 4vw;
+    }
+
+    #page6 button {
+        font-size: 4vw;
+        padding: 3vw 5vw;
+    }
+
+    .page6-elem h3 {
+        font-size: 5vw;
+    }
+
+    .page6-elem p {
+        font-size: 3.5vw;
+        width: 95%;
+    }
+
+    #blue-btn {
+        width: 55vw;
+        height: 12vw;
+    }
+
+}
